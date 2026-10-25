@@ -13,12 +13,25 @@
     el.textContent = new Date().getFullYear();
   });
 
-  // Contact form: validates client-side. Connect a form backend
-  // (e.g. Formspree, Netlify Forms or your own endpoint) in sendEnquiry().
+  // Contact form: validates, then opens the visitor's email app with the
+  // enquiry pre-filled and addressed to TO. No third-party service involved.
   var form = document.getElementById("enquiry-form");
   if (!form) return;
+  var TO = "hello@xrateventures.com";
 
   function sendEnquiry(data) {
+    var subject = "Enquiry from " + data.name + " (" + data.company + ")";
+    var body = [
+      "Name: " + data.name,
+      "Email: " + data.email,
+      "Phone: " + (data.phone || "-"),
+      "Company: " + data.company,
+      "Annual turnover: " + data.turnover,
+      "Exit timeline: " + data.timeline,
+      "",
+      data.message || ""
+    ].join("\n");
+    window.location.href = "mailto:" + TO + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
     return Promise.resolve(data);
   }
 
