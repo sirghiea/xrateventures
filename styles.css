@@ -747,3 +747,4 @@ h3 { font-size: clamp(1.4rem, 2vw, 1.7rem); letter-spacing: -0.005em; }
 /* Documentary photos: warm them slightly so they sit in the brown palette */
 .media img { filter: saturate(0.82) sepia(0.12) contrast(1.02); }
 .media-portrait img, .founder-strip .media img { filter: none; }
+.media-person img { filter: none; }
