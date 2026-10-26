@@ -29,7 +29,7 @@ export function Footer() {
         <div className="footer-grid">
           <div>
             <Link className="brand" href="/">
-              <span className="brand-mark" aria-hidden="true">XV</span>
+              
               <span className="brand-name">XrateVentures</span>
             </Link>
             <p>A long-term home for established UK businesses, built on care for people and modern operational thinking.</p>

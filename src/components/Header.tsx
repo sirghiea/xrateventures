@@ -39,7 +39,7 @@ export function Header() {
       <header className="site-header">
         <div className="header-inner">
           <Link className="brand" href="/" aria-label="XrateVentures home">
-            <span className="brand-mark" aria-hidden="true">XV</span>
+            
             <span className="brand-name">XrateVentures</span>
           </Link>
           <nav className="nav" aria-label="Main">
