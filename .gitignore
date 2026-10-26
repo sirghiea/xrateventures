@@ -1,2 +1,7 @@
+node_modules/
+.next/
+out/
+originals-local/
 .DS_Store
-images/originals/
+next-env.d.ts
+*.tsbuildinfo
