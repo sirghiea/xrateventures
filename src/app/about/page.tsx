@@ -62,7 +62,7 @@ export default function About() {
         <div className="container quote-with-photo">
           <figure className="media" data-reveal="image">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/alex-sofa.jpg" alt="Alex Sîrghie" loading="lazy" decoding="async" />
+            <img src="/images/alex-seated.jpg" alt="Alex Sîrghie" loading="lazy" decoding="async" />
           </figure>
           <div>
             <span className="kicker" data-reveal>A note from our founder</span>

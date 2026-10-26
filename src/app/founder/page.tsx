@@ -27,7 +27,7 @@ export default function Founder() {
     <>
       <Hero
         variant="portrait"
-        image="/images/alex-portrait.jpg"
+        image="/images/alex-seated.jpg"
         imageAlt="Alex Sîrghie"
         kicker="Who I am"
         lines={["I’m Alex.", <span className="accent" key="a">I buy exceptional</span>, <span className="accent" key="b">businesses and</span>, <span className="accent" key="c">help them grow.</span>]}

@@ -103,7 +103,7 @@ export default function Home() {
         <div className="container founder">
           <figure className="media media--portrait" data-reveal="image">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/alex-smile.jpg" alt="Alex Sîrghie, Founder and Group Chairman of XrateVentures" loading="lazy" decoding="async" />
+            <img src="/images/alex-seated.jpg" alt="Alex Sîrghie, Founder and Group Chairman of XrateVentures" loading="lazy" decoding="async" />
           </figure>
           <div className="head">
             <span className="kicker" data-reveal>Led by a founder, not a fund</span>
